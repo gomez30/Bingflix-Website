@@ -18,7 +18,7 @@ function switchEmbed(embedUrl) {
 }
 
 const movieId = getParameterByName('id');
-const apiKey = 'TMDB_API_KEY_HERE';
+const apiKey = '7b4b8af2d885777c1c603011ee871be6';
 const extidsUrl =  `https://api.themoviedb.org/3/movie/${movieId}/external_ids?api_key=${apiKey}`;
 async function getImdbIdAndEmbed(embedUrl)
 {
