@@ -21,7 +21,7 @@ function getQueryVariable(variable) {
 
   //this function is seraching movies and bringing the response from api
   async function searchMovies(query) {
-    const apiKey = 'TMDB_API_KEY_HERE'; // Replace 'YOUR_API_KEY' with your actual TMDb API key
+    const apiKey = '7b4b8af2d885777c1c603011ee871be6'; // Replace 'YOUR_API_KEY' with your actual TMDb API key
     // const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`;
     const url = `https://api.themoviedb.org/3/search/multi?api_key=${apiKey}&query=${query}&include_adult=false`
 
